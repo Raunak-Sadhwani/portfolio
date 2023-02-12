@@ -381,7 +381,7 @@ const Projects = (props) => {
             img: "images/rdivas.png",
             tech: "js css vue nest",
             link: "https://rdivas.in",
-            repo: "#",
+            repo: "https://github.com/Raunak-Hacker/rdivas/",
           },
 
           React.createElement(
@@ -421,7 +421,7 @@ const Projects = (props) => {
             img: "images/nck.png",
             tech: "css vue nest",
             link: "https://nck-synopsis.web.app/",
-            repo: "#",
+            repo: "https://github.com/Raunak-Hacker/college-synopsis-generator/",
           },
 
           React.createElement("small", null, "Built using VueJS & NestJs"),
@@ -439,7 +439,7 @@ const Projects = (props) => {
             img: "images/aio.png",
             tech: "js  css  vue firebase",
             link: "https://aio-buddy.web.app/",
-            repo: "#",
+            repo: "https://github.com/Raunak-Hacker/AIO-Buddy/",
           },
 
           React.createElement(
@@ -534,6 +534,7 @@ const Contact = (props) => {
             { className: "subtitle" },
             "Please, use the form below or send an email to ",
             "",
+            React.createElement("br"),
             React.createElement(
               "span",
               { className: "mail" },
@@ -583,7 +584,6 @@ const Contact = (props) => {
   );
 };
 // submit add event listener
-
 
 /***********************
   Footer Component
