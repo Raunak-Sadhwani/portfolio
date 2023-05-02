@@ -268,6 +268,7 @@ const About = (props) => {
 const Project = (props) => {
   const tech = {
     sass: "fab fa-sass",
+    mongodb: "fas fa-database",
     css: "fab fa-css3-alt",
     nuxt: "fab fa-nuxtjs",
     js: "fab fa-js-square",
@@ -278,6 +279,8 @@ const Project = (props) => {
     d3: "far fa-chart-bar",
     node: "fab fa-node-js",
     firebase: "bx bxl-firebase",
+    express: "e-img",
+    mongo: "m-img",
     nest: "n-img",
     nuxt: "nu-img",
   };
@@ -377,6 +380,28 @@ const Projects = (props) => {
         React.createElement(
           Project,
           {
+            title: "Relaxury: Empowering Quality Businesses",
+            img: "images/relaxury.png",
+            tech: "css js vue php",
+            link: "https://relaxury.web.app/",
+            repo: "",
+          },
+
+          React.createElement(
+            "small",
+            null,
+            "Built using VueJS, PHP, CSS, and more."
+          ),
+
+          React.createElement(
+            "p",
+            null,
+            "This is a full-stack major project where you can build yourself a website for your business under 1 min."
+          )
+        ),
+        React.createElement(
+          Project,
+          {
             title: "RDIVAS: Passion for fashion",
             img: "images/rdivas.png",
             tech: "js css vue nest",
@@ -394,6 +419,50 @@ const Projects = (props) => {
             "p",
             null,
             "This is a full-stack project I made for a client. It's a fashion store that sells clothes and accessories. My Primary work was to build the front-end, I made whole front-end and whole admin panel using VueJS. "
+          )
+        ),
+        React.createElement(
+          Project,
+          {
+            title: "World Chat",
+            img: "https://github.com/Raunak-Hacker/world-chat-MEVN/blob/master/word-chat.png?raw=true",
+            tech: "mongo express vue node",
+            link: "https://chat.raunak.me/",
+            repo: "https://github.com/Raunak-Hacker/world-chat-MEVN",
+          },
+
+          React.createElement(
+            "small",
+            null,
+            "Built using MongoDB, Express, VueJS, NodeJS"
+          ),
+
+          React.createElement(
+            "p",
+            null,
+            "This is a full-stack project I made for fun. It's a chat app that allows users to chat with each other. I implemented web sockets to make it real-time. "
+          )
+        ),
+        React.createElement(
+          Project,
+          {
+            title: "Babiesworld",
+            img: "images/baby.png",
+            tech: "html css js php",
+            link: "https://babiesworld.co.in/",
+            repo: "",
+          },
+
+          React.createElement(
+            "small",
+            null,
+            "Built using HTML, CSS, JS and PHP"
+          ),
+
+          React.createElement(
+            "p",
+            null,
+            "This is a static website I made for a client. It's a portfolio website that displays photos of babies, clicked by the client. To promote her business, she wanted a website, so I made this for her. "
           )
         ),
         React.createElement(

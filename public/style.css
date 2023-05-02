@@ -21,6 +21,20 @@
   display: inline-block;
   background-repeat: no-repeat;
 }
+.e-img {
+  background-image: url("images/expressjs-icon.svg");
+  width: 1.3rem;
+  height: 1.3rem;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.m-img {
+  background-image: url("images/mongodb-icon.svg");
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
 
 .nu-img {
   background-image: url("images/nuxt-js-icon.svg");
